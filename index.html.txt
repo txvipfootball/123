@@ -1,0 +1,16 @@
+function sendMessage() {
+  const input = document.getElementById('userInput');
+  const chatLog = document.getElementById('chatLog');
+  const msg = input.value.trim();
+  if (!msg) return;
+
+  const userMsg = document.createElement('p');
+  userMsg.textContent = '你: ' + msg;
+  chatLog.appendChild(userMsg);
+
+  const botMsg = document.createElement('p');
+  botMsg.textContent = '客服: 我已收到你的消息 "' + msg + '"';
+  chatLog.appendChild(botMsg);
+
+  input.value = '';
+}

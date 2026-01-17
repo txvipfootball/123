@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>机器人客服 - TXFootballs</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">首页</a> |
+      <a href="chat.html">机器人客服</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>机器人客服</h1>
+    <div id="chatbot">
+      <p>你好，我是智能客服，有问题请在下方输入：</p>
+      <input type="text" id="userInput" placeholder="输入消息...">
+      <button onclick="sendMessage()">发送</button>
+      <div id="chatLog"></div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 TXFootballs. All rights reserved.</p>
+  </footer>
+
+  <script src="js/chatbot.js"></script>
+</body>
+</html>

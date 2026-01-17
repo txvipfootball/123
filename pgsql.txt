@@ -1,0 +1,21 @@
+txvipfootball/
+│
+├─ index.html           <-- 首页
+├─ privacy.html         <-- 安全与隐私页面
+├─ chat.html            <-- 机器人客服页面
+├─ article1.html        <-- 文章 1
+├─ article2.html        <-- 文章 2
+│
+├─ css/
+│   └─ style.css        <-- 样式表
+│
+├─ js/
+│   └─ chatbot.js       <-- 机器人客服 JS
+│
+├─ images/
+│   ├─ logo.png
+│   ├─ banner.jpg
+│   └─ article1_img.jpg
+│
+└─ videos/
+    └─ intro.mp4
